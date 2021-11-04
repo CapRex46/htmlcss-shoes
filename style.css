@@ -6,25 +6,58 @@
 }
 .container{
     width: 1200px;
+    margin: 0 auto;
 }
 
+.select{
+    background: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
 
+.linknav{
+    position: fixed;
+    z-index: 4;
+    height: 50px;
+    padding-top: 20px;
+    text-align: center;
+    left: 0px;
+    border-right: 20px;
+    width: 100%;
+    top: 30px;
+}
 .box{
-    height: 800px;
+    position: relative;
     width: 1200px;
+    height: 80vh;
 }
 
-.box-red{
-    background-color: red;
-    position: absolute;
+.fr{
+    float: right;
+}
+
+.red-content, .grn-content h1{
+    color: yellow;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
 }
 
+.ylw-content h1{
+    color: green;
+}
 
-.txt{
-    font-size: 70px;
+.boxred{
+    background-color: red;
+}
+
+.boxylw{
+    background-color: yellow;
+}
+
+.boxgrn{
+    background-color: green;
 }
 
 .yellowtxt{
